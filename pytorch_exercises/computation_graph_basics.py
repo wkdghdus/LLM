@@ -22,7 +22,8 @@ grad_L_b = grad(loss, b, retain_graph=True)         # manually grabs gradient of
 print(grad_L_w1)
 print(grad_L_b)
 
-loss.backward()     # Automatically computes the gradients of all leaf nodes
+loss.backward()     # Automatically computes the gradients of all leaf nodes. Store via .grad attribute
+                    # is a standard way to do gradients.
 
 print(w1.grad)
 print(b.grad)
