@@ -16,8 +16,9 @@ class NeuralNetwork(torch.nn.Module):
 
         self.layers = torch.nn.Sequential(
                 
-            # 1st hidden layer
-            torch.nn.Linear(num_inputs, 30),
+            ### 1st hidden layer
+            torch.nn.Linear(num_inputs, 30),    # Linear layer takes # of input and # of output nodes as arguments.
+
             torch.nn.ReLU(),    # ReLU is an activation function to introduce non-linearity
                                 # which lets the network learn more complicated patterns 
                                 # (like curves, edges, images, or text relationships).
