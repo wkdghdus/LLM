@@ -1,3 +1,11 @@
+### Tokenizer enhanced from V1.
+### This tokenizer implements the concept of unknown words handling and endoftext to enhance the tokenizer capability.
+### now it will replace unknown words from vocab as <|unk|> 
+### add <|endoftext|> between unrelated text sources.
+
+
+import re
+
 
 class SimpleTokenizerV2:
     def __init__(self, vocab):
