@@ -16,9 +16,9 @@ The project is structured to mirror the chapters of Raschka's book, covering top
 
 ## Development Log
 
-Progress and insights are documented in a development log, accessible [here](https://troubled-marten-623.notion.site/Building-LLM-from-Scratch-by-Luke-Jang-1a05d47e5346804a818bfd682c6c1562). This log includes:
+Progress and insights are documented in a development log, accessible [here](https://medium.com/@h.lukejang). This log includes:
 
-- **Daily Updates**: Summaries of daily progress, challenges faced, and solutions implemented.
+- **Weekly Updates**: Summaries of daily progress, challenges faced, and solutions implemented.
 - **Code Snippets**: Key code implementations and explanations.
 - **Learnings and Reflections**: Insights gained throughout the development process.
 
